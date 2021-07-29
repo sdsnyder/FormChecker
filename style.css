@@ -1,0 +1,75 @@
+/*
+SEBASTIAN SNYDER
+Colors: 
+Pantone 656 C // DDE5FD br
+Pantone 7717 C // 009696 acc
+Pantone Black 6 C // 101921 txt 
+*/
+
+h1{
+    color: #009696;
+    font-size: 24pt;
+    font-style: italic;
+    text-align: center;
+}
+h3{
+    color: #009696;
+    font-size: 18pt;
+    text-align: center;
+}
+h6{
+    color: #009696;
+    font-size: 14pt;
+    text-align: center;
+}
+
+body{
+    background-color: #DDE5FD;
+    color:#101921;
+    font-size: 14pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-content: center;
+}
+
+.results{
+    color: #009696;
+    font-size: 16pt;
+    margin-left: 20%;
+}
+.alert{
+    color: red;
+    font-size: 18pt;
+    text-align: center;
+    font-weight: bolder;
+}
+.forma{
+    border: 3px solid #009696;
+    padding: 15px;
+    display:table;
+    height:100%;
+    width: 400px;
+    margin: 0 auto;
+}
+.formb{
+    display: table-cell;
+    vertical-align: middle;
+    margin:0 auto;
+}
+
+input[type=submit] {
+    background-color: #009696;
+    color: #101921;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    float: right;
+  }
+input[type=submit]:hover {
+    background-color: #DDE5FD;
+    color: #009696;
+}
+input[type=text] {
+    float:right;
+    
+}

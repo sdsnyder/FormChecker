@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Favorite Books</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css" title="style" />
+    </head>
+
+    <body>
+        <h1> Favorite Book Collection </h1>
+        <div class="forma">
+            <div class="formb">
+                <form method="POST" name="favorites" action="formtotext.php">
+                    <p>
+                        <label>Book Title: <input type="text" placeholder= "Enter the title of the book" name="title" /> </label>
+                    </p>
+                    <p>
+                        <label>Book Author: <input type="text" placeholder= "Enter the book's author" name="auth" /></label>
+                    </p>
+                    <p>
+                        <label>ISBN: <input type="text" placeholder= "Enter the book ISBN" name="isbn" /></label>
+                    </p>
+                    <p>
+                        <label>Book Genre: <input type="text" placeholder= "Enter the genre of the book" name="genre" /></label>
+                    </p>
+                    <input type="submit" value="Submit Book">
+                </form>
+            </div>
+        </div>
+    </body>
+
+</html>
